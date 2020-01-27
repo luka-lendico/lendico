@@ -241,8 +241,8 @@ go to src/main/java/de/lendico in IntelliJ and right click on Application.java a
     ]
 }
 ```
-** * *Note: In the test document the response provided as * * **
-
+**Note: In the test document the response provided as **
+```
 {
 	[
 	{
@@ -255,17 +255,17 @@ go to src/main/java/de/lendico in IntelliJ and right click on Application.java a
         }
 	]
 }
-
+```
 **But the above is not valid as it should be **
-
+```
 {
-	"loanResponseList": [{
-		"borrowerPaymentAmount": "219.35",
-		"date": "2018-01-01T00:00:01Z",
-		"initialOutstandingPrincipal": "5000",
-		"interest": "20.83",
-		"principal": "198.52",
-		"remainingOutstandingPrincipal": "4801.47"
-	}]
+"loanResponseList": [{
+	"borrowerPaymentAmount": "219.35",
+	"date": "2018-01-01T00:00:01Z",
+	"initialOutstandingPrincipal": "5000",
+	"interest": "20.83",
+	"principal": "198.52",
+	"remainingOutstandingPrincipal": "4801.47"
+}]
 }
-
+```
