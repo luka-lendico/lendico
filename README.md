@@ -10,14 +10,14 @@ cd lendico
 ```
 
 **Import the project to IntelliJ (from existing sources)**
-
+```
 -> Select File -> New -> projects from existing sources
 
 -> Select the project location from the explorer
-
+```
 
 **Import the project from Git**
-
+```
 -> select File -> New -> import projects from Version Control -> Git
 
 -> Enter "git clone https://github.com/sivasyam/lendico.git" in URL section of Clone Repository window
@@ -25,25 +25,25 @@ cd lendico
 -> Select Directory
 
 -> Click on Clone (if you already connected to Git) or else Login to Git and follow the same
-
+```
 
 **To Run project **
-
+```
 go to src/main/java/de/lendico in IntelliJ and right click on Application.java and select Run 'Application.main()'
-
+```
 
 **Sample Request**
-
+```
 {
 "loanAmount": "5000",
 "nominalRate": "5.0",
 "duration": 24,
 "startDate": "2018-01-01T00:00:01Z"
 }
-
+```
 
 **Sample Response**
-
+```
 {
     "loanResponseList": [
         {
@@ -240,8 +240,8 @@ go to src/main/java/de/lendico in IntelliJ and right click on Application.java a
         }
     ]
 }
-
-* *Note: In the test document the response provided as * *
+```
+** * *Note: In the test document the response provided as * * **
 
 {
 	[
@@ -256,7 +256,7 @@ go to src/main/java/de/lendico in IntelliJ and right click on Application.java a
 	]
 }
 
-* *But the above is not valid as it should be * *
+**But the above is not valid as it should be **
 
 {
 	"loanResponseList": [{
